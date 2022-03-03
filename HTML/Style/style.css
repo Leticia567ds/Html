@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Arial , sans-serif;
+    background-color: antiquewhite;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #bb3483;
+    padding: 1em;
+    font-size: 19px;
+}
+
+form{
+    border: 1px solid rgb(245, 186, 216);
+    border-radius: 0.3em;
+    padding: 0.3em;
+}
+
+form input, form button{
+    
+    font-size: 1.1em;
+    border-radius: 1.0em;
+    border: none;
+    padding: 0.2em;
+}
+
+form button{
+    cursor: Busy;
+    background: none;
+    color: rgb(109, 170, 228);
+}
+
+form button:hover{
+    background-color: rgb(255, 8, 132);
+    color: #e8f801;
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+}
+h1 {
+    
+    padding: 0px;
+    margin: 12 12px;
+    
+}
+.div{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    justify-content: space-around;
+}
+.romance{
+    color: rgb(19, 2, 3);
+	
+}
+.acao{
+    color:#000000
+}
+.com{
+    color:#000000
+}
+.terror{
+    color: #000000;
+}
+.fan{
+    color: #000000;
+}
+
+ul li{
+    display:block;
+
+}
+.li{
+    font-size: 115%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ti{
+    font-size: 115%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.i{
+    font-size: 115%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    margin: 1;
+    padding: 1;
+    
+}
+
+nav{
+    height: auto;
+    width: 90%;
+}
+
+.logo{
+    margin-right: 40px;
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    
+    justify-content:  space-around;   
+    background: linear-gradient(195deg, rgb(241, 6, 96) 15%, rgba(248, 160, 222, 0.891) 100%);
+    background-repeat: repeat;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-style: Arial;
+    font-size: 25px;
+    padding: 14px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% auto;
+    justify-content: space-around;
+    text-align: left;
+    font-size: 10px;
+
+} 
+ 
+
+.content p{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
+.image{
+    height: 250px;
+    width: 300px;
+    margin: 30px;
+    padding:1 0;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding-top: 40px;
+
+  }
+  .ops{
+      padding: 0;
+      justify-content: center;
+      height: 37px;
+      width:36px ;
+     font-size: 35px;
+     
+  }
+  .seta{
+      justify-content: center;
+      height: 15px;
+      width: 20px;
+      font-size: 20px;
+  }
