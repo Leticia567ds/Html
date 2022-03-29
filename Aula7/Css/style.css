@@ -25,7 +25,7 @@ label {
     text-align: center;
 }
 .img1{
-    width: 115px;
+    width: 117px;
     background-color: rgb(230, 191, 155);
     border-radius: 100%;
     padding: 5px;
@@ -49,6 +49,7 @@ img{
  .container{  
     display: flex;
     justify-content: space-around;
+  
 }
 
 .container div p {
@@ -69,9 +70,18 @@ img{
     font-weight: 557;
    
 }
-@media(max-width:800px){
+@media(max-width:1000px){
     .container{  
         display: flex;
         flex-direction: column;
     }
+}
+
+.word{
+    font-family: 'Poppins';
+    font-size: 78%;
+    align-items: center;
+}
+.img{
+    font-size: 66%;
 }
