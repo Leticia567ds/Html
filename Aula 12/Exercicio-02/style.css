@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+ .div1{ 
+     margin: 20px;
+     
+ }
+ .div2{
+    display: flex;
+    justify-content: space-between;
+ }
+ table {
+     margin: 10% auto;
+     border-collapse: collapse;
+ }
+ .Pai th{
+     text-align: justify;
+     
+    
+ }
+
+ table tr td { 
+    border-bottom: 1px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px 30px;
+    
+ }
+ .td{
+     border: none;
+     
+ }
+
+ thead th{
+    border-bottom: 1px solid black;
+     
+     font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 20px;
+     padding: 15px 35px;
+     
+ }
+  

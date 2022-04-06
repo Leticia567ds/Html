@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.div1 {
+    margin: 50px;
+
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont {
+    display: flex;
+    width: 100%;
+    
+}
+
+
+
+#div5 {
+    background-color: red;
+    width: 99%;
+    height: 88vh;
+
+
+}
+
+#div6 {
+    background-color: rgb(8, 250, 48);
+    width: 99%;
+    height: 88vh;
+    
+}
+#div7 {
+    background-color: rgb(0, 89, 255);
+    width: 99%;
+    height: 88vh;
+    
+}
