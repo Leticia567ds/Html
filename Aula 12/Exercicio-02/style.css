@@ -12,6 +12,9 @@
     display: flex;
     justify-content: space-between;
  }
+ .pr{
+     color: blue;
+ }
  table {
      margin: 10% auto;
      border-collapse: collapse;

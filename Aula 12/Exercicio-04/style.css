@@ -15,6 +15,9 @@
     display: flex;
     justify-content: space-between;
 }
+.pr{
+    color: blue;
+}
 
 .cont {
     display: flex;

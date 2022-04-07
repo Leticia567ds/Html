@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:wght@300;400&family=Ranga&family=Roboto:wght@500&display=swap');
+*{
+    margin:0%;
+    padding:0%;
+    font-family: 'Open Sans', sans-serif;
+}
+.div1{
+    margin: 20px;
+}
+.div2{
+    
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1%;
+}
+ 
+.pr{
+  color: rgba(0, 19, 227, 0.992);
+}
+ .bola{
+     display: flex;
+     margin: 40px 20px;
+     justify-content: center;
+ }
+.bola #red{
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: row;
+}
+.bola #green{
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: row;
+}
+#red{
+    border-radius: 50%;
+    display: inline-block;
+    height: 148px;
+    width: 148px;
+    background-color: red;
+
+}
+#green{
+    border-radius: 50%;
+    display: inline-block;
+    height: 148px;
+    width: 148px;
+    background-color: rgb(43, 255, 0);
+}
+#blue{
+    border-radius: 50%;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(0, 4, 255);
+    margin: 15px;
+}
+.bola2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 20px 10px;
+
+    
+}
+#red2{
+    border-radius: 50%;
+    height: 148px;
+    width: 148px;
+    background-color: rgb(248, 6, 6);
+}
+#green2{
+    border-radius: 50%;
+    height: 148px;
+    width: 148px;
+    background-color: rgb(0, 255, 0);
+}
+#blue2{
+    border-radius: 50%;
+    height: 148px;
+    width: 148px;
+    background-color: rgb(6, 30, 248);
+}
+.bola3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+   
+    
+    
+}
+#green3{
+    border-radius: 50%;
+    height: 148px;
+    width: 148px;
+    background-color: rgb(34, 248, 6);
+}
+#red3{
+    border-radius: 50%;
+    height: 148px;
+    width: 148px;
+    background-color: rgb(248, 6, 6);
+}
+#blue3{
+    border-radius: 50%;
+    height: 148px;
+    width: 148px;
+    background-color: rgb(6, 22, 248);
+}
+ 

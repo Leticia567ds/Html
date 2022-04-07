@@ -13,6 +13,9 @@
     display: flex;
     justify-content: space-between;
 }
+.pr{
+ color: blue;
+}
 
 .list1 ul{
     padding: 4%;
