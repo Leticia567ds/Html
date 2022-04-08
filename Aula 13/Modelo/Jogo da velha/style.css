@@ -1,0 +1,36 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    grid-template-rows: 10vh 10vh 10vh; 
+    grid-template-columns: 10vw 20vw;
+    grid-template-areas: "h  w x"
+                         "N  p M "
+                         "F  i L";
+}
+header {
+    height: 100%;
+    grid-area: h;
+  
+}
+
+nav {
+    height: 100%;
+    grid-area: N;
+    
+
+}
+
+main {
+    height: 100%;
+    grid-area: M;
+    
+}
+
+footer {
+    height: 100%;
+    grid-area: F;
+}

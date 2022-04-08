@@ -4,12 +4,14 @@
     padding:0%;
     font-family: 'Open Sans', sans-serif;
 }
-.div{
-    margin:10px 20px;
+.div h1 h2{
+    margin: 10px;
 }
+ 
 .div2{
     display: flex;
     justify-content: space-between;
+    
 }
  
 .pr{
@@ -28,12 +30,12 @@
 #cor2{
     background-color: #cd9292;
     width:25%;
-    height: 50vh;
+    height: 55vh;
 }
 #cor3{
     background-color: rgb(102, 22, 22);
-    width:90%;
-    height: 50vh;
+    width:100%;
+    height: 55vh;
 }
 
 #cor4{
