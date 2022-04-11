@@ -1,0 +1,28 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10vh 40vh 50vh;
+    grid-template-columns: 20vw 80vw ;
+    grid-template-areas:  "h h"
+                          "f m"
+                          "c m";
+
+}
+header{
+    grid-area: h;
+}
+.form{
+    grid-area: f;
+}
+.cards{
+    grid-area: c;
+}
+main{
+    grid-area: m;
+}
