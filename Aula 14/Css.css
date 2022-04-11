@@ -8,7 +8,7 @@ body{
     height: 100vh;
     display: grid;
     grid-template-rows: 10vh 40vh 50vh;
-    grid-template-columns: 20vw 80vw ;
+    grid-template-columns: 30vw 70vw ;
     grid-template-areas:  "h h"
                           "f m"
                           "c m";
@@ -16,13 +16,41 @@ body{
 }
 header{
     grid-area: h;
+    background-color: #404853;;
 }
 .form{
     grid-area: f;
+    background-color: white;
 }
 .cards{
     grid-area: c;
+    background-color: rgb(0, 153, 255);
 }
 main{
     grid-area: m;
+    background-color: antiquewhite;
+}
+ul{ 
+    list-style: none;
+}
+ul li{
+     padding: 0px 10px;
+     color: #e8ebf0;
+ 
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    
+}
+.second-ul a {
+    color: rgba(255, 255, 255, 0.432);
+}
+.second-ul a:hover{
+    color: rgba(255, 255, 255, 0.87);
+}
+.ol{
+    margin-left: -40%;
 }
