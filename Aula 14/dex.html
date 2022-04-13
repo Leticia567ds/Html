@@ -1,85 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Css.css">
-    <script src="https://kit.fontawesome.com/4edd9d2003.js" crossorigin="anonymous"></script>
-
     <title>Document</title>
+
+    <link rel="stylesheet" href="Css.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><img src="" alt="">Logo</li>
-                <li class="ol">Qualidade aplicada Ltda</li>
-
-                <ul class="second-ul">
-                    <li>Olá,Letícia</li>
-                    <li><a href=""><i class="fa-solid fa-list"></i></a></li>
-                    <li><a href=""><i class="fa-solid fa-house"></i></a></li>
-                    <li><a href=""><i class="fa-solid fa-user"></i></a></li>
-                    <li><a href=""><i class="fa-solid fa-copyright"></i></a></li>
-                    <li><a href=""><i class="fa-solid fa-circle-question"></i></a></li>
-                    <li>Sair</li>
-                </ul>
-            </ul>
-
-        </nav>
-    </header>
-    <div class="form">
-       
-        <h2>DashBoard Perfomance</h2>
-        <hr>
-        <h3>Período:</h3>
-        <input id="date" type="date" value="01-02-2019">
-        <input id="date" type="date" value="01-02-2019">
-        <h3>Tipo de atividade:</h3>
-        <input type="number" placeholder="5s Auditoria">
-
+    <div class="container">
+        <header>
+            <span>
+                <img src="./assets/logo.png" width="40" alt="IMAGE LOGO">
+                <p>Qualidade Aplicada Ltda.</p>
+            </span>
+            <nav>
+                <p>Olá, Claudio</p>
+                <img src="./assets/list.png" width="40" alt="IMAGE MENU">
+                <img src="./assets/home.png" width="40" alt="IMAGE HOME">
+                <img src="./assets/user.png" width="40" alt="IMAGE HOME">
+                <img src="./assets/copyright.png" width="40" alt="IMAGE HOME">
+                <img src="./assets/help.png" width="40" alt="IMAGE HOME">
+                <p>Sair</p>
+            </nav>
+        </header>
+        <div class="form">
+            <form action="#">
+                <h2>DashBoard Performance</h2>
+                <hr/>
+                <p>Período</p>
+                <input type="date" >                
+                <input type="date" >
+                <p>Período de Atividade</p>
+                <select></select>
+            </form>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <p>ATIVIDADES CONCLUÍDAS</p>
+                <p>9</p>
+            </div>
+            <div class="card">
+                <p>MENOR PONTUAÇÃO</p>
+                <p>37</p>
+            </div>
+            <div class="card">
+                <p>ATIVIDADES PENDENTES</p>
+                <p>1</p>
+            </div>
+            <div class="card">
+                <p>MAIOR PONTUAÇÃO</p>
+                <p>91</p>
+            </div>
+            <div class="card">
+                <p>ATIVIDADES CANCELADAS</p>
+                <p>0</p>
+            </div>
+            <div class="card">
+                <p>TEMPO MÉDIO EM DIAS</p>
+                <p>12</p>
+            </div>
+            <div class="card">
+                <p>NA MÉDIA</p>
+                <p>5</p>
+            </div>
+            <div class="card">
+                <p>DESVIO PADRÃO</p>
+                <p>19,36</p>
+            </div>
+        </div>
+        <main>
+            <div class="options">
+                <div class="bloco b1">
+                    <p>Nota Média <br> <span class="nota">65,44</span></p>
+                    <img src="./assets/help.png" alt="Icon Helper">
+                </div>
+                <div class="bloco b2">
+                    <p>Nota Média <br> <span class="nota">10</span></p>
+                    <img src="./assets/help.png" alt="Icon Helper">
+                </div>
+                <div class="bloco b3">
+                    <p>Nota Média <br> <span class="nota">4</span></p>
+                    <img src="./assets/help.png" alt="Icon Helper">
+                </div>
+                <div class="bloco b4">
+                    <p>Nota Média <br> <span class="nota">13    </span></p>
+                    <img src="./assets/help.png" alt="Icon Helper">
+                </div>
+                <div class="bloco b5">
+                    <i class="fa-solid fa-down-to-line"></i>
+                </div>
+            </div>
+            <img src="./assets/grafico.jpg" alt="">
+        </main>
     </div>
-    <div class="cards">
-        <div class="ol1">
-      <p>Atividades concluídas</p>
-      <h1 class="h1">9</h1>
-        </div>
-        <div class="ol2">
-            <p>Menor pontuação</p>
-      <h1 class="h1">37</h1>
-        </div>
-        <div class="ol3">
-            <p>Atividades pendentes</p>
-      <h1 class="h1">1</h1>
-        </div>
-        <div class="ol4">
-            <p>Maior pontuaçõa</p>
-      <h1 class="h1">91</h1>
-        </div>
-        <div class="ol5">
-            <p>Atividades canceladas</p>
-            <h1 class="h1">0</h1>
-        </div>
-        <div class="ol6">
-            <p>Tempo médio em dias</p>
-            <h1 class="h1">12</h1>
-        </div>
-        <div class="ol7">
-            <p>Na média</p>
-            <h1 class="h1">5</h1>
-        </div>
-        <div class="ol8">
-            <p>Desvio padrão</p>
-            <h1 class="h1">19,36</h1>
-        </div>
-    </div>
-    <main>
-        <div class="main">
-        <div class="img">
-            <img src="img/le.png" alt="">
-        </div>
-    </div>
-    </main>
 </body>
 </html>
