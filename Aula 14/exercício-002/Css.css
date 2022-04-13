@@ -1,0 +1,182 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 10vh 40vh 50vh;
+    grid-template-columns: 40vw 60vw;
+    grid-template-areas: "N  N"
+        "F  M"
+        "C  M";
+    background-color: rgb(211, 211, 211);
+}
+
+.menu {
+    grid-area: N;
+    background-color: #404853;
+
+}
+
+.form {
+    grid-area: F;
+    background-color: rgb(255, 255, 254);
+    margin: 15px 15px;
+
+}
+
+.cards {
+    grid-area: C;
+
+}
+
+.main {
+    grid-area: M;
+
+}
+
+ul li {
+    list-style: none;
+    color: #ffff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.second-ul li {
+    margin: 10px;
+    padding: 10px 10px;
+}
+
+.first>li {
+    align-items: center;
+    margin: 10px;
+    padding: 10px 10px;
+}
+
+img {
+    max-width: 5vw;
+    max-height: 10vh;
+}
+
+.second-ul a {
+    color: rgba(255, 255, 255, 0.432);
+}
+
+.second-ul a:hover {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+input {
+    display: grid;
+    width: 45%;
+}
+
+.form-input {
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+hr {
+    color: #7c828a;
+    margin: 10px 10px;
+
+}
+
+.cards {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(4, 11.9vh);
+    grid-template-columns: repeat(2, 20vw);
+    grid-template-areas: "A  B"
+        "C  D"
+        "E  F"
+        "G  H";
+
+    grid-gap: 1px;
+    padding: 10px 10px;
+
+}
+
+.cards-table {
+    grid-area: A;
+    background-color: #5984f4;
+}
+
+.cards-table2 {
+    grid-area: B;
+    background-color: #5984f4;
+}
+
+.cards-table3 {
+    grid-area: C;
+    background-color: #5984f4;
+}
+
+.cards-table4 {
+    grid-area: D;
+    background-color: #5984f4;
+}
+
+.cards-table5 {
+    grid-area: E;
+    background-color: #5984f4;
+}
+
+.cards-table6 {
+    grid-area: F;
+    background-color: #5984f4;
+}
+
+.cards-table7 {
+    grid-area: G;
+    background-color: #5984f4;
+}
+
+.cards-table8 {
+    grid-area: H;
+    background-color: #5984f4;
+}
+
+ 
+
+.main-mom {
+  
+    display: grid;
+    grid-template-rows: 10vh 10vh 10vh ;
+    grid-template-columns: 10vw 10vw 10vw;
+    grid-template-areas: "A B"
+        "C D";
+        grid-gap: 2px;
+ 
+       
+
+}
+
+.main-son {
+    grid-area: A; 
+    background-color: #2364c0;
+}
+
+.main-son2 {
+    grid-area: B;
+    background-color: #6d9735;
+}
+
+.main-son3 {
+    grid-area: C;
+    background-color: #9d578a;
+}
+
+.main-son4 {
+    grid-area: D;
+    background-color: #6c5118;
+}
