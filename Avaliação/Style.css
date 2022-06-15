@@ -1,0 +1,47 @@
+body{
+    background-color: #cce2e2;
+}
+
+img{
+    margin:35px 350px;
+   padding: 0px 350px;
+
+}
+.center{
+    width: 20%;
+    height: 30vh;
+    background-color: #eeedeb;
+    margin: 0px 670px;
+    padding: 10px;
+    
+}
+.Tecla{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    justify-content: center;
+    margin: 0px 40px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+.Teclas p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Teclas{
+    width:50px;
+    height: 45px;
+    border:2px solid #44babc ;
+    margin:0px 10px ;
+    border-radius:50px ;
+    
+}
+.Teclas:hover{
+    background-color: #35797d;
+}
+
+ 
+ 
